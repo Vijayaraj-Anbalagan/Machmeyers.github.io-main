@@ -35,14 +35,14 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
 
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6WF2Z0NJX1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6WF2Z0NJX1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-6WF2Z0NJX1');
-</script>
+      gtag('config', 'G-6WF2Z0NJX1');
+    </script>
     
   </head>
   <body>
@@ -122,7 +122,7 @@
           <div class="col-lg-8">
             <div class="wow fadeInUp" data-wow-delay=".3s">
               <div class="container" id="ff-compose"></div>
-              <script async defer src="https://formfacade.com/include/111559879025886459972/form/1FAIpQLSck4daKl_3kqu3ujQWWJsSIsOuw5Ct0rfEKCM6jZ6j6XZX18Q/bootstrap.js?div=ff-compose"></script>
+              <script async defer src="https://formfacade.com/include/111559879025886459972/form/1FAIpQLSf82Vq4l3HDDHIBuaaoEx12gnQArF2-UZmseZ6ptQlLEko1KA/bootstrap.js?div=ff-compose"></script>
             </div>
           </div>
         </div>
@@ -268,7 +268,7 @@
           document.documentElement.scrollTop ||
           document.body.scrollTop;
 
-        for (let i = 0; i < sections.length; i++) {
+        for (let i = 0; sections.length > i; i++) {
           const currLink = sections[i];
           const val = currLink.getAttribute("href");
           const refElement = document.querySelector(val);
