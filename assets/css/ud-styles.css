@@ -2797,7 +2797,6 @@ p {
 
 .ud-team .card-body {
   background-color: #fff;
-  border: 1px solid #ddd;
   padding: 20px;
   border-radius: 8px;
 }
@@ -2856,6 +2855,235 @@ p {
 
 .linkedin-link:hover {
   text-decoration: underline;
+}
+
+.profile-image-large {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image-large img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.profile-image-small {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image-small img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.linkedin-icon, .linkedin-icon-small {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease;
+  background-color: #0077b5;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+
+
+.linkedin-icon-small {
+  padding: 7px;
+}
+
+.profile-image-large:hover .linkedin-icon, .profile-image-small:hover .linkedin-icon-small {
+  opacity: 1;
+}
+
+.profile-image-large:hover img, .profile-image-small:hover img {
+  transform: scale(1.1);
+  filter: blur(2px);
+}
+
+.card-body h5 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.card-body p {
+  margin-bottom: 0.5rem;
+}
+
+.trainer-card .card-body,
+.core-card .card-body {
+  text-align: center;
+}
+
+.trainer-card .profile-image-large,
+.core-card .profile-image-small {
+  margin: 0 auto;
+}
+
+.ud-section-title h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .core-card .profile-image-small {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width:768px){
+  .trainer-card .profile-image-large{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .trainer-card,
+  .core-card {
+    text-align: center;
+  }
+
+  .trainer-card .profile-image-large,
+  .core-card .profile-image-small {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+  }
+}
+
+.ud-scholarship-test {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+.ud-scholarship-test .ud-section-title {
+  margin-bottom: 40px;
+}
+.ud-scholarship-test .ud-scholarship-info {
+  margin-bottom: 30px;
+}
+.ud-scholarship-test .ud-scholarship-info h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.ud-scholarship-test .ud-scholarship-info ul {
+  padding-left: 0;
+  list-style: none;
+}
+.ud-scholarship-test .ud-scholarship-info ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.ud-scholarship-test .ud-scholarship-info ul li i {
+  font-size: 22px;
+  color: #111337;
+  margin-right: 10px;
+}
+.ud-scholarship-test .ud-scholarship-image img {
+  max-width: 100%;
+  height: auto;
+}
+.ud-scholarship-test .ud-main-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  white-space: nowrap;
+}
+@media (max-width: 768px) {
+  .ud-scholarship-info {
+    text-align: center;
+  }
+  .ud-scholarship-image {
+    margin-top: 20px;
+  }
+  .ud-main-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+.ud-demo-videos {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.video-card {
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.video-wrapper {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-details h5 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.video-details p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .video-wrapper iframe {
+    height: 215px;
+  }
+
+  .video-details h5 {
+    font-size: 1.25rem;
+  }
+
+  .video-details p {
+    font-size: 0.875rem;
+  }
+
+  .order-lg-1, .order-lg-2 {
+    order: unset !important;
+  }
+}
+
+.ud-main-btn {
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  background-color: #111337;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.ud-main-btn:hover {
+  background-color: #333e7c;
 }
 
 /*# sourceMappingURL=ud-styles.css.map */
