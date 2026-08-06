@@ -90,4 +90,31 @@
   document.querySelector(".back-to-top").onclick = () => {
     scrollTo(document.documentElement);
   };
+
+  // ======= Policy page: highlight the active table-of-contents link
+  const policyToc = document.querySelector(".ud-policy-toc");
+  if (policyToc) {
+    const tocLinks = policyToc.querySelectorAll("a");
+    const tocSections = Array.from(tocLinks)
+      .map((link) => document.querySelector(link.getAttribute("href")))
+      .filter(Boolean);
+
+    const setActiveTocLink = (activeId) => {
+      tocLinks.forEach((link) => {
+        link.classList.toggle("is-active", link.getAttribute("href") === `#${activeId}`);
+      });
+    };
+
+    const tocObserver = new IntersectionObserver(
+      (entries) => {
+        const visibleSection = entries.find((entry) => entry.isIntersecting);
+        if (visibleSection) {
+          setActiveTocLink(visibleSection.target.id);
+        }
+      },
+      { rootMargin: "-120px 0px -70% 0px", threshold: 0 }
+    );
+
+    tocSections.forEach((section) => tocObserver.observe(section));
+  }
 })();

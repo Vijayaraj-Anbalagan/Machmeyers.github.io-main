@@ -13,22 +13,28 @@
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://yourdomain.com/">
+  <meta property="og:url" content="https://machmeyers.in/">
   <meta property="og:title" content="Mach Meyer's Academy">
   <meta property="og:description" content="Mach Meyer's Academy - Premier GATE Aerospace Coaching">
-  <meta property="og:image" content="https://yourdomain.com/logo.jpg">
+  <meta property="og:image" content="https://machmeyers.in/assets/images/logo/logo.png">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://yourdomain.com/">
+  <meta property="twitter:url" content="https://machmeyers.in/">
   <meta property="twitter:title" content="Mach Meyer's Academy">
   <meta property="twitter:description" content="Mach Meyer's Academy - Premier GATE Aerospace Coaching">
-  <meta property="twitter:image" content="https://yourdomain.com/logo.jpg">
+  <meta property="twitter:image" content="https://machmeyers.in/assets/images/logo/logo.png">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://machmeyers.in/" />
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/svg" />
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png" />
 
   <!-- All CSS files -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&display=swap">
   <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="assets/css/animate.css" />
@@ -89,7 +95,7 @@
             </div>
 
             <div class="navbar-btn d-none d-sm-inline-block">
-              <a class="ud-main-btn ud-white-btn" href="#contact">
+              <a class="ud-main-btn ud-white-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdfmS5YLtmFzFBr18IguiSw3-g52nrqEPXTvoaKBFtdyo2T6Q/viewform?pli=1" target="_blank" rel="noopener">
                 Contact Us
               </a>
             </div>
@@ -101,16 +107,28 @@
   <!-- Header End -->
 
   <section class="ud-hero" id="home">
+    <svg class="ud-hero-schematic" viewBox="0 0 1200 500" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+      <line x1="0" y1="130" x2="1200" y2="130" stroke="rgba(255,255,255,0.06)" stroke-width="1"></line>
+      <line x1="0" y1="260" x2="1200" y2="260" stroke="rgba(255,255,255,0.06)" stroke-width="1"></line>
+      <line x1="0" y1="390" x2="1200" y2="390" stroke="rgba(255,255,255,0.06)" stroke-width="1"></line>
+      <path d="M -40 460 L 260 460 L 520 300 L 820 300 L 1160 90" fill="none" stroke="rgba(255,255,255,0.16)" stroke-width="2" stroke-dasharray="2 10" stroke-linecap="round"></path>
+      <circle cx="260" cy="460" r="4" fill="rgba(93,212,255,0.35)"></circle>
+      <circle cx="520" cy="300" r="4" fill="rgba(93,212,255,0.35)"></circle>
+      <circle cx="820" cy="300" r="4" fill="rgba(93,212,255,0.35)"></circle>
+      <circle cx="1160" cy="90" r="4" fill="rgba(93,212,255,0.45)"></circle>
+    </svg>
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s"
             style="padding-bottom: 2rem; text-align: center;">
             <h1 class="ud-hero-title">
-              Mach Meyer's Academy - Premier GATE Aerospace Coaching
+              Premier GATE Coaching for Aerospace Engineering
             </h1>
             <p class="ud-hero-desc">
               Join the best GATE coaching for Aerospace Engineering and achieve your dreams with our expert guidance.
+              <br />
+              Your pathway to reach India's top institutes and PSUs.
             </p>
             <ul class="ud-hero-buttons">
               <li>
@@ -119,19 +137,11 @@
                 </a>
               </li>
               <li>
-                <a href="register.html" class="ud-main-btn ud-link-btn">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfmS5YLtmFzFBr18IguiSw3-g52nrqEPXTvoaKBFtdyo2T6Q/viewform?pli=1" target="_blank" rel="noopener" class="ud-main-btn ud-link-btn">
                   Register <i class="lni lni-arrow-right"></i>
                 </a>
               </li>
             </ul>
-            <p class="ud-hero-admission"
-              style="margin-top: 1rem; font-size: 1.1rem; color: #eeeeee; font-weight: bold;">
-              Admission open for Batch 3 - GATE AE 2026!
-            </p>
-            <a href="register.html" class="ud-main-btn"
-              style="margin-top: 1rem; display: inline-block; background: white; color: #0a0a0a; border: 2px solid #f7f5f5; padding: 10px 20px; font-weight: bold; border-radius: 5px;">
-              Enroll Now
-            </a>
           </div>
         </div>
       </div>
@@ -145,7 +155,7 @@
     <img src="assets/images/hero/heroImg.png" alt="Elevate Your Aerospace Dreams - GATE 2026" class="img-fluid w-100">
   </div> -->
   <!-- About Start -->
-  <section id="about" class="ud-about">
+  <section id="about" class="ud-about ud-section-dark">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -154,8 +164,9 @@
             <h2>Welcome to Mach Meyer's Academy</h2>
             <p>
               Mach Meyer's Academy is a premier institute dedicated to providing top-notch coaching for the GATE
-              Aerospace examination. Founded by a team of post-graduate students from the prestigious IIT and MIT, our
-              academy is committed to helping aspiring aerospace engineers achieve their dreams.
+              Aerospace examination. Founded by a team of IIT'ians and MIT, our academy is committed to helping
+              aspiring aerospace engineers achieve their dreams.
+              <strong>We will help you to get internship in cutting edge aerospace companies.</strong>
             </p>
           </div>
         </div>
@@ -173,7 +184,8 @@
               <p>
                 At Mach Meyer's Academy, we aim to empower students to reach their full potential and excel
                 academically. Our vision is to foster innovation in aerospace engineering and make a significant impact
-                by nurturing skilled professionals for the industry's future
+                by nurturing skilled professionals for the industry's future, giving them real industry exposure
+                alongside their preparation
               </p>
             </div>
           </div>
@@ -185,7 +197,8 @@
               <p>
                 At Mach Meyer's Academy, we aim to empower students to reach their full potential and excel
                 academically. Our vision is to foster innovation in aerospace engineering and make a significant impact
-                by nurturing skilled professionals for the industry's future.
+                by nurturing skilled professionals for the industry's future, giving them real industry exposure
+                alongside their preparation.
               </p>
               <p class="ud-blog-author">- Mach Meyer's Academy</p>
             </div>
@@ -201,11 +214,11 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="ud-section-title mx-auto text-center wow fadeInUp" data-wow-delay=".15s">
-              <span>Scholarship Test</span>
-              <h2>Get Up to 75% Scholarship for GATE Coaching</h2>
+              <span>SPECIAL DISCOUNTS</span>
+              <h2>Save More on Your GATE Coaching</h2>
               <p>
-                Participate in our scholarship test and secure your chance to receive up to 75% off on our comprehensive
-                GATE coaching. Prepare effectively with Mach Meyer's Academy.
+                Students get a special discount of Rs 2000 off, plus an extra Rs 2000 off for every friend they bring
+                along!
               </p>
             </div>
           </div>
@@ -213,13 +226,7 @@
         <div class="row mt-4 align-items-center">
           <div class="col-lg-8 col-md-12 col-sm-12 wow fadeInLeft" data-wow-delay=".2s">
             <div class="ud-scholarship-info">
-              <h3>Scholarship Test Details</h3>
-              <ul class="list-unstyled mb-2">
-                <li><i class="lni lni-calendar"></i> Date: <strong>5<sup>th</sup> to <strong>13</strong><sup>th</sup> July 2025</strong></li>
-                <li><i class="lni lni-alarm-clock"></i> Time: <strong>6 to 7 PM</strong></li>
-                <li><i class="lni lni-world"></i> Mode: <strong>Online</strong></li>
-              </ul>
-              <h3 class="mt-2">Importance of GATE and Preparation</h3>
+              <h3>Importance of GATE and Preparation</h3>
               <p>
                 GATE (Graduate Aptitude Test in Engineering) is a crucial examination for engineering students aspiring
                 for higher education and prestigious job opportunities. Achieving a good score in GATE opens doors to
@@ -240,12 +247,10 @@
         </div>
         <div class="row mt-4 justify-content-center">
           <div class="col-lg-6 col-md-8 col-sm-10 text-center">
-            <a href="https://unstop.com/p/gate-aerospace-2026-batch-3-machmeyers-academy-1512576"
-              class="ud-main-btn ud-white-btn wow fadeInUp" data-wow-delay=".3s"
-              style="background-color: #111337; color: #fff; padding: 12px 20px;">
-              <i class="lni lni-pencil"></i> Register for Scholarship Test
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfmS5YLtmFzFBr18IguiSw3-g52nrqEPXTvoaKBFtdyo2T6Q/viewform?pli=1" target="_blank" rel="noopener"
+              class="ud-main-btn ud-solid-btn wow fadeInUp" data-wow-delay=".3s">
+              <i class="lni lni-pencil"></i> Register for Course
             </a>
-            <p class="mt-2 small">Registration open on Unstop Scholarship Test Portal</p>
           </div>
         </div>
       </div>
@@ -255,7 +260,7 @@
 
     <!-- Scholarship Test Section End -->
 
-    <section id="features" class="ud-features">
+    <section id="features" class="ud-features ud-section-light">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -271,39 +276,40 @@
         </div>
         <div class="row">
           <div class="col-xl-3 col-lg-3 col-sm-6 mb-4">
-            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".1s">
+            <div class="ud-single-feature">
               <div class="ud-feature-icon">
                 <i class="lni lni-graduation"></i>
               </div>
               <div class="ud-feature-content">
                 <h3 class="ud-feature-title">Expert Trainers</h3>
                 <p class="ud-feature-desc">
-                  Learn from experienced trainers who are experts in the field of aerospace engineering.
+                  Trainers are IIT gold medalists and All India level top rank holders, now working in top Aerospace
+                  companies.
                 </p>
-                <a href="#team" class="ud-feature-link">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfmS5YLtmFzFBr18IguiSw3-g52nrqEPXTvoaKBFtdyo2T6Q/viewform?pli=1" target="_blank" rel="noopener" class="ud-feature-link">
                   Learn More
                 </a>
               </div>
             </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-sm-6 mb-4">
-            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".15s">
+            <div class="ud-single-feature">
               <div class="ud-feature-icon">
-                <i class="lni lni-book"></i>
+                <i class="lni lni-gift"></i>
               </div>
               <div class="ud-feature-content">
-                <h3 class="ud-feature-title">Comprehensive Curriculum</h3>
+                <h3 class="ud-feature-title">Student Discounts</h3>
                 <p class="ud-feature-desc">
-                  Get access to a comprehensive curriculum that covers all essential topics for the GATE exam.
+                  Get Rs 2000 off on your enrollment, plus an extra Rs 2000 off for every friend you bring along!
                 </p>
-                <a href="#syllabus" class="ud-feature-link">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfmS5YLtmFzFBr18IguiSw3-g52nrqEPXTvoaKBFtdyo2T6Q/viewform?pli=1" target="_blank" rel="noopener" class="ud-feature-link">
                   Learn More
                 </a>
               </div>
             </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-sm-6 mb-4">
-            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".2s">
+            <div class="ud-single-feature">
               <div class="ud-feature-icon">
                 <i class="lni lni-write"></i>
               </div>
@@ -312,14 +318,14 @@
                 <p class="ud-feature-desc">
                   Regular mock tests and assignments to help you practice and improve your performance.
                 </p>
-                <a href="#contact" class="ud-feature-link">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfmS5YLtmFzFBr18IguiSw3-g52nrqEPXTvoaKBFtdyo2T6Q/viewform?pli=1" target="_blank" rel="noopener" class="ud-feature-link">
                   Learn More
                 </a>
               </div>
             </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-sm-6 mb-4">
-            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".25s">
+            <div class="ud-single-feature">
               <div class="ud-feature-icon">
                 <i class="lni lni-video"></i>
               </div>
@@ -328,47 +334,48 @@
                 <p class="ud-feature-desc">
                   Access recorded classes anytime, allowing you to study at your own pace.
                 </p>
-                <a href="#contact" class="ud-feature-link">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfmS5YLtmFzFBr18IguiSw3-g52nrqEPXTvoaKBFtdyo2T6Q/viewform?pli=1" target="_blank" rel="noopener" class="ud-feature-link">
                   Learn More
                 </a>
               </div>
             </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-sm-6 mb-4">
-            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".3s">
+            <div class="ud-single-feature">
               <div class="ud-feature-icon">
                 <i class="lni lni-support"></i>
               </div>
               <div class="ud-feature-content">
                 <h3 class="ud-feature-title">Live Doubt Clearing Sessions</h3>
                 <p class="ud-feature-desc">
-                  Attend live sessions to get your doubts cleared by our expert trainers.
+                  Attend live sessions every Saturday and Sunday to get your doubts cleared by our expert trainers,
+                  with personalized doubt clearing sessions available on request.
                 </p>
-                <a href="#contact" class="ud-feature-link">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfmS5YLtmFzFBr18IguiSw3-g52nrqEPXTvoaKBFtdyo2T6Q/viewform?pli=1" target="_blank" rel="noopener" class="ud-feature-link">
                   Learn More
                 </a>
               </div>
             </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-sm-6 mb-4">
-            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".35s">
+            <div class="ud-single-feature">
               <div class="ud-feature-icon">
-                <i class="lni lni-certificate"></i>
+                <i class="lni lni-briefcase"></i>
               </div>
               <div class="ud-feature-content">
-                <h3 class="ud-feature-title">Scholarship Opportunities</h3>
+                <h3 class="ud-feature-title">Internship Opportunities</h3>
                 <p class="ud-feature-desc">
-                  Participate in scholarship tests and get financial assistance and Scholarships based on your
-                  performance.
+                  Get access to internship opportunities with leading aerospace companies through our industry
+                  connections, giving you real world exposure alongside your GATE preparation.
                 </p>
-                <a href="#scholarship-test" class="ud-feature-link">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfmS5YLtmFzFBr18IguiSw3-g52nrqEPXTvoaKBFtdyo2T6Q/viewform?pli=1" target="_blank" rel="noopener" class="ud-feature-link">
                   Learn More
                 </a>
               </div>
             </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-sm-6 mb-4">
-            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".4s">
+            <div class="ud-single-feature">
               <div class="ud-feature-icon">
                 <i class="lni lni-timer"></i>
               </div>
@@ -377,14 +384,14 @@
                 <p class="ud-feature-desc">
                   Learn at your own pace with our flexible learning options, including live and recorded sessions.
                 </p>
-                <a href="#contact" class="ud-feature-link">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfmS5YLtmFzFBr18IguiSw3-g52nrqEPXTvoaKBFtdyo2T6Q/viewform?pli=1" target="_blank" rel="noopener" class="ud-feature-link">
                   Learn More
                 </a>
               </div>
             </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-sm-6 mb-4">
-            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".45s">
+            <div class="ud-single-feature">
               <div class="ud-feature-icon">
                 <i class="lni lni-rocket"></i>
               </div>
@@ -393,7 +400,7 @@
                 <p class="ud-feature-desc">
                   Receive career guidance and counseling to help you achieve your professional goals.
                 </p>
-                <a href="#contact" class="ud-feature-link">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfmS5YLtmFzFBr18IguiSw3-g52nrqEPXTvoaKBFtdyo2T6Q/viewform?pli=1" target="_blank" rel="noopener" class="ud-feature-link">
                   Learn More
                 </a>
               </div>
@@ -405,7 +412,7 @@
   </section>
 
   <!-- Batches Start -->
-  <section id="batches" class="ud-batches">
+  <section id="batches" class="ud-batches ud-section-dark">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -421,14 +428,13 @@
 
       <section>
         <div class="container">
-          <div class="row">
+          <div class="row justify-content-center">
 
             <!-- Online Batch -->
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="col-lg-5 col-md-8 col-sm-12 mb-4 ud-batches-single">
               <div class="card h-100 wow fadeInUp" data-wow-delay=".1s">
                 <div class="card-body text-center">
-                  <i class="lni lni-world text-primary services-icon"
-                    style="font-size: 48px; color: #111337!important;"></i>
+                  <i class="lni lni-world services-icon ud-batches-icon"></i>
                   <h5 class="card-title mt-3">Online Batch</h5>
                   <p class="card-text mb-4">
                     Flexible online batch for students who prefer learning from the comfort of their homes.
@@ -439,49 +445,7 @@
                     <li class="mb-2"><i class="lni lni-checkmark-circle"></i> Weekly assignments</li>
                     <li class="mb-2"><i class="lni lni-checkmark-circle"></i> 24/7 support</li>
                   </ul>
-                  <a href="#contact" class="text-primary">Learn More <i class="lni lni-arrow-right"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Crash Course Batch -->
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <div class="card h-100 wow fadeInUp" data-wow-delay=".3s">
-                <div class="card-body text-center">
-                  <i class="lni lni-alarm text-primary services-icon"
-                    style="font-size: 48px; color: #111337!important;"></i>
-                  <h5 class="card-title mt-3">Crash Course Batch</h5>
-                  <p class="card-text mb-4">
-                    Intensive crash course batch for last-minute preparation.
-                  </p>
-                  <ul class="list-unstyled mb-4">
-                    <li class="mb-2"><i class="lni lni-checkmark-circle"></i> Daily intensive classes</li>
-                    <li class="mb-2"><i class="lni lni-checkmark-circle"></i> Access to recorded sessions</li>
-                    <li class="mb-2"><i class="lni lni-checkmark-circle"></i> Mock tests</li>
-                    <li class="mb-2"><i class="lni lni-checkmark-circle"></i> 24/7 support</li>
-                  </ul>
-                  <a href="#contact" class="text-primary">Learn More <i class="lni lni-arrow-right"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Mock Test Batch -->
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <div class="card h-100 wow fadeInUp" data-wow-delay=".35s">
-                <div class="card-body text-center">
-                  <i class="lni lni-pencil text-primary services-icon"
-                    style="font-size: 48px; color: #111337!important;"></i>
-                  <h5 class="card-title mt-3">Mock Test Batch</h5>
-                  <p class="card-text mb-4">
-                    Periodic assessments, topic-wise assignments, mock tests, and Pre-GATE exams with live Q/A sessions.
-                  </p>
-                  <ul class="list-unstyled mb-4">
-                    <li class="mb-2"><i class="lni lni-checkmark-circle"></i> Complete syllabus coverage</li>
-                    <li class="mb-2"><i class="lni lni-checkmark-circle"></i> Topic-wise assignments</li>
-                    <li class="mb-2"><i class="lni lni-checkmark-circle"></i> Mock tests</li>
-                    <li class="mb-2"><i class="lni lni-checkmark-circle"></i> Live Q/A sessions</li>
-                  </ul>
-                  <a href="#contact" class="text-primary">Learn More <i class="lni lni-arrow-right"></i></a>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfmS5YLtmFzFBr18IguiSw3-g52nrqEPXTvoaKBFtdyo2T6Q/viewform?pli=1" target="_blank" rel="noopener" class="text-primary">Learn More <i class="lni lni-arrow-right"></i></a>
                 </div>
               </div>
             </div>
@@ -494,7 +458,7 @@
       <!-- Batches End -->
 
       <!-- Syllabus Start -->
-      <section id="syllabus" class="ud-syllabus">
+      <section id="syllabus" class="ud-syllabus ud-section-light">
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
@@ -502,7 +466,7 @@
                 <span>Syllabus</span>
                 <h2>Course Syllabus</h2>
                 <p>
-                  An overview of the key topics covered in our GATE Aerospace Engineering course.
+                  An overview of the syllabus covered in our GATE Aerospace Engineering course.
                 </p>
               </div>
             </div>
@@ -510,45 +474,177 @@
 
           <div class="row">
             <div class="col-lg-12">
-              <div class="table-responsive wow fadeInUp" data-wow-delay=".15s">
-                <table class="table table-bordered table-striped syllabus-table">
-                  <thead>
-                    <tr>
-                      <th scope="col">Module</th>
-                      <th scope="col">Topics</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Module 1</td>
-                      <td>Engineering Mathematics</td>
-                    </tr>
-                    <tr>
-                      <td>Module 2</td>
-                      <td>Flight Mechanics</td>
-                    </tr>
-                    <tr>
-                      <td>Module 3</td>
-                      <td>Aerodynamics</td>
-                    </tr>
-                    <tr>
-                      <td>Module 4</td>
-                      <td>Structures</td>
-                    </tr>
-                    <tr>
-                      <td>Module 5</td>
-                      <td>Propulsion</td>
-                    </tr>
-                    <tr>
-                      <td>Module 6</td>
-                      <td>Space Dynamics</td>
-                    </tr>
-                    <tr>
-                      <td>Module 7</td>
-                      <td>General Aptitude</td>
-                    </tr>
-                  </tbody>
-                </table>
+              <div class="wow fadeInUp" data-wow-delay=".15s">
+                <div class="ud-single-faq">
+                  <div class="accordion">
+                    <button class="ud-faq-btn collapsed" data-bs-toggle="collapse"
+                      data-bs-target="#collapseModule1">
+                      <span class="icon flex-shrink-0">
+                        <i class="lni lni-chevron-down"></i>
+                      </span>
+                      <span><span class="ud-readout">Module 1</span>: Engineering Mathematics</span>
+                    </button>
+                    <div id="collapseModule1" class="accordion-collapse collapse">
+                      <div class="ud-faq-body">
+                        <ul class="ud-syllabus-topics mb-0">
+                          <li>Linear Algebra</li>
+                          <li>Calculus</li>
+                          <li>Differential Equations</li>
+                          <li>Fourier Series</li>
+                          <li>Laplace Transforms</li>
+                          <li>Numerical Methods</li>
+                          <li>Complex Analysis</li>
+                          <li>Probability</li>
+                          <li>Statistics</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ud-single-faq">
+                  <div class="accordion">
+                    <button class="ud-faq-btn collapsed" data-bs-toggle="collapse"
+                      data-bs-target="#collapseModule2">
+                      <span class="icon flex-shrink-0">
+                        <i class="lni lni-chevron-down"></i>
+                      </span>
+                      <span><span class="ud-readout">Module 2</span>: Flight Mechanics</span>
+                    </button>
+                    <div id="collapseModule2" class="accordion-collapse collapse">
+                      <div class="ud-faq-body">
+                        <ul class="ud-syllabus-topics mb-0">
+                          <li>Atmosphere</li>
+                          <li>Aircraft Basics</li>
+                          <li>Aircraft Forces & Moments</li>
+                          <li>Airspeed & Flight Instruments</li>
+                          <li>Airplane performance</li>
+                          <li>Static stability</li>
+                          <li>Dynamic Stability</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ud-single-faq">
+                  <div class="accordion">
+                    <button class="ud-faq-btn collapsed" data-bs-toggle="collapse"
+                      data-bs-target="#collapseModule3">
+                      <span class="icon flex-shrink-0">
+                        <i class="lni lni-chevron-down"></i>
+                      </span>
+                      <span><span class="ud-readout">Module 3</span>: Aerodynamics</span>
+                    </button>
+                    <div id="collapseModule3" class="accordion-collapse collapse">
+                      <div class="ud-faq-body">
+                        <ul class="ud-syllabus-topics mb-0">
+                          <li>Basic Fluid Mechanics</li>
+                          <li>Potential Flow</li>
+                          <li>Boundary Layer</li>
+                          <li>Airfoils & wings</li>
+                          <li>Finite Wing Theory</li>
+                          <li>Compressible Flows</li>
+                          <li>Nozzles & Diffusers</li>
+                          <li>Wind Tunnel Testing</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ud-single-faq">
+                  <div class="accordion">
+                    <button class="ud-faq-btn collapsed" data-bs-toggle="collapse"
+                      data-bs-target="#collapseModule4">
+                      <span class="icon flex-shrink-0">
+                        <i class="lni lni-chevron-down"></i>
+                      </span>
+                      <span><span class="ud-readout">Module 4</span>: Structures</span>
+                    </button>
+                    <div id="collapseModule4" class="accordion-collapse collapse">
+                      <div class="ud-faq-body">
+                        <ul class="ud-syllabus-topics mb-0">
+                          <li>Strength of Materials</li>
+                          <li>Failure Theories</li>
+                          <li>Strain Energy Methods</li>
+                          <li>Beams & Trusses</li>
+                          <li>Column Buckling</li>
+                          <li>Aircraft Structures</li>
+                          <li>Structural Dynamics</li>
+                          <li>Beam Vibrations</li>
+                          <li>Theory of Elasticity</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ud-single-faq">
+                  <div class="accordion">
+                    <button class="ud-faq-btn collapsed" data-bs-toggle="collapse"
+                      data-bs-target="#collapseModule5">
+                      <span class="icon flex-shrink-0">
+                        <i class="lni lni-chevron-down"></i>
+                      </span>
+                      <span><span class="ud-readout">Module 5</span>: Propulsion</span>
+                    </button>
+                    <div id="collapseModule5" class="accordion-collapse collapse">
+                      <div class="ud-faq-body">
+                        <ul class="ud-syllabus-topics mb-0">
+                          <li>Aerothermodynamics</li>
+                          <li>Brayton Cycle</li>
+                          <li>Thermochemistry</li>
+                          <li>Engine performance</li>
+                          <li>Intakes, Combustors & Nozzles</li>
+                          <li>Centrifugal & Axial compressors</li>
+                          <li>Axial turbines</li>
+                          <li>Rocket Propulsion</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ud-single-faq">
+                  <div class="accordion">
+                    <button class="ud-faq-btn collapsed" data-bs-toggle="collapse"
+                      data-bs-target="#collapseModule6">
+                      <span class="icon flex-shrink-0">
+                        <i class="lni lni-chevron-down"></i>
+                      </span>
+                      <span><span class="ud-readout">Module 6</span>: Space Dynamics</span>
+                    </button>
+                    <div id="collapseModule6" class="accordion-collapse collapse">
+                      <div class="ud-faq-body">
+                        <ul class="ud-syllabus-topics mb-0">
+                          <li>Central force motion</li>
+                          <li>Kepler's Laws</li>
+                          <li>Orbit Determination</li>
+                          <li>Escape Velocity</li>
+                          <li>Launch Vehicle Performance</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ud-single-faq">
+                  <div class="accordion">
+                    <button class="ud-faq-btn collapsed" data-bs-toggle="collapse"
+                      data-bs-target="#collapseModule7">
+                      <span class="icon flex-shrink-0">
+                        <i class="lni lni-chevron-down"></i>
+                      </span>
+                      <span><span class="ud-readout">Module 7</span>: General Aptitude</span>
+                    </button>
+                    <div id="collapseModule7" class="accordion-collapse collapse">
+                      <div class="ud-faq-body">
+                        <ul class="ud-syllabus-topics mb-0">
+                          <li>Reading Comprehension</li>
+                          <li>Numerical Ability</li>
+                          <li>Logical Reasoning</li>
+                          <li>Data Interpretation</li>
+                          <li>Verbal & Analytical Ability</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -557,17 +653,12 @@
 
       <!-- Syllabus End -->
       <!-- Free Demo Class Section Start -->
-      <section id="demo-class" class="ud-demo-class" style="padding: 40px 0; background-color: #f7f9fc;">
+      <section id="demo-class" class="ud-demo-class ud-section-dark" style="padding: 40px 0;">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-12 text-center wow fadeInUp" data-wow-delay=".1s">
-              <h2 style="margin-bottom: 1rem;">Get a Free Demo Class</h2>
-              <p style="font-size: 1rem; color: #555; margin-bottom: 2rem;">
-                Experience our teaching style with a live demo class conducted via Google Meet. Interact with our expert
-                trainers and get a glimpse of our comprehensive coaching program.
-              </p>
-              <a href="demo.html" class="ud-main-btn"
-                style="position: relative; display: inline-block; padding: 15px 30px; background-color: #111337; color: #fff; font-size: 1.2rem; border-radius: 5px; text-decoration: none;">
+              <h2 class="ud-cta-heading">Get a Free Demo Class</h2>
+              <a href="#demo-videos" class="ud-main-btn ud-cta-btn-solid">
                 Book Your Free Demo
                 <span style="display: inline-block; margin-left: 10px; position: relative; top: 2px;">
                   <i class="lni lni-video"></i>
@@ -581,7 +672,7 @@
 
       <!-- Team Section Start -->
 
-      <section id="team" class="ud-team">
+      <section id="team" class="ud-team ud-section-light">
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
@@ -597,60 +688,97 @@
                 <h3>Our Trainers</h3>
               </div>
               <div class="row mt-4 justify-content-center">
-                <!-- Hariharan's Card -->
-                <div class="col-lg-10 col-md-12 col-sm-12 mb-5">
-                  <div class="card h-100 wow fadeInUp trainer-card" data-wow-delay=".2s">
-                    <div class="profile-image-large mt-3">
-                      <img src="assets/images/team/hariharan.jpg" alt="Hariharan R" class="img-fluid rounded-circle">
-                      <a href="https://www.linkedin.com/in/hariharan-r-4a9a3b20b/" target="_blank"
-                        class="linkedin-icon">
-                        <i class="lni lni-linkedin-original"></i>
-                      </a>
-                    </div>
-                    <div class="card-body text-center">
-                      <h5><strong>Hariharan R</strong></h5>
-                      <p><i class="lni lni-graduation"></i> Founder and Program Trainer</p>
-                      <p><i class="lni lni-graduation"></i> PG Student in Aerospace Engineering, MIT</p>
-                      <p>Hariharan R is an alumnus of KCG College of Technology, with a Bachelor's in Aerospace
-                        Engineering. He is currently pursuing a Master's degree at Madras Institute of Technology and
-                        has cleared GATE in 2023 and 2024.</p>
-                    </div>
-                  </div>
-                </div>
                 <!-- Barani's Card -->
                 <div class="col-lg-10 col-md-12 col-sm-12 mb-5">
-                  <div class="card h-100 wow fadeInUp trainer-card" data-wow-delay=".25s">
+                  <div class="card h-100 trainer-card">
                     <div class="profile-image-large mt-3">
-                      <img src="assets/images/team/barani.jpg" alt="Barani L" class="img-fluid rounded-circle">
-                      <a href="https://www.linkedin.com/in/barani-l-aa679323b/" target="_blank" class="linkedin-icon">
+                      <img src="assets/images/team/barani.jpg" alt="Barani L" class="img-fluid">
+                      <a href="https://www.linkedin.com/in/barani-l-aa679323b/" target="_blank" class="linkedin-icon"
+                        title="Open Barani L's LinkedIn profile" aria-label="Open Barani L's LinkedIn profile">
                         <i class="lni lni-linkedin-original"></i>
                       </a>
                     </div>
                     <div class="card-body text-center">
                       <h5><strong>Barani L</strong></h5>
-                      <p><i class="lni lni-graduation"></i> Student Advisor</p>
-                      <p><i class="lni lni-graduation"></i> PG Student in Aerospace Engineering, IIT Madras</p>
-                      <p>Barani L is an alumnus of KCG College of Technology with a Bachelor's in Aerospace Engineering.
-                        Currently, he is pursuing a Master's degree at IIT Madras and secured AIR 85 in GATE 2024.</p>
+                      <p><i class="lni lni-graduation"></i> Founder & Lead Mentor | M.Tech, IIT Madras</p>
+                      <p>A Master's student in Aerospace Engineering at IIT Madras, specializing in Aerodynamics and
+                        Propulsion. Secured AIR 85 in GATE Aerospace 2024 and is currently working as an Executive in
+                        a leading engineering and manufacturing organization, contributing to advanced product
+                        development and engineering solutions. He actively mentors students in GATE preparation and
+                        career guidance.</p>
                     </div>
                   </div>
                 </div>
-                <!-- Aisha Morvadia's Card -->
+                <!-- Balaji's Card -->
                 <div class="col-lg-10 col-md-12 col-sm-12 mb-5">
-                  <div class="card h-100 wow fadeInUp trainer-card" data-wow-delay=".3s">
+                  <div class="card h-100 trainer-card">
                     <div class="profile-image-large mt-3">
-                      <img src="assets/images/team/aisha.jpeg" alt="Aisha Morvadia" class="img-fluid rounded-circle">
-                      <a href="https://www.linkedin.com/in/aisha-morvadia-2163a3169/" target="_blank"
-                        class="linkedin-icon">
+                      <img src="assets/images/team/balaji.jpg" alt="Balaji M" class="img-fluid">
+                    </div>
+                    <div class="card-body text-center">
+                      <h5><strong>Balaji M</strong></h5>
+                      <p><i class="lni lni-graduation"></i> Student Advisor | M.Tech, IIT Madras</p>
+                      <p>Completed M.Tech in Aerospace Engineering from IIT Madras, specializing in Aerodynamics,
+                        Computational Fluid Dynamics (CFD), and Structures. Secured AIR 26 in GATE Aerospace 2024 and
+                        is currently working at a leading rocket technology company, bringing both academic
+                        excellence and industry expertise to mentor aspiring aerospace engineers.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Kishore's Card -->
+                <div class="col-lg-10 col-md-12 col-sm-12 mb-5">
+                  <div class="card h-100 trainer-card">
+                    <div class="profile-image-large mt-3">
+                      <img src="assets/images/team/kishore.jpg" alt="Kishore B" class="img-fluid">
+                    </div>
+                    <div class="card-body text-center">
+                      <h5><strong>Kishore B</strong></h5>
+                      <p><i class="lni lni-graduation"></i> Student Advisor | IIT Madras</p>
+                      <p>A Gold Medalist in M.Tech Aerospace Engineering from IIT Madras, specializing in Engineering
+                        Mathematics and Computational Fluid Dynamics (CFD). A top rank holder in GATE Aerospace 2024,
+                        currently working at a leading aero-engine manufacturing company while mentoring aspiring
+                        aerospace engineers.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Hariharan's Card -->
+                <div class="col-lg-10 col-md-12 col-sm-12 mb-5">
+                  <div class="card h-100 trainer-card">
+                    <div class="profile-image-large mt-3">
+                      <img src="assets/images/team/hariharan.jpg" alt="Hariharan R" class="img-fluid">
+                      <a href="https://www.linkedin.com/in/hariharan-r-4a9a3b20b/" target="_blank"
+                        class="linkedin-icon" title="Open Hariharan R's LinkedIn profile"
+                        aria-label="Open Hariharan R's LinkedIn profile">
                         <i class="lni lni-linkedin-original"></i>
                       </a>
                     </div>
                     <div class="card-body text-center">
-                      <h5><strong>Aisha Morvadia</strong></h5>
-                      <p><i class="lni lni-graduation"></i> Trainer & Student Guide</p>
-                      <p><i class="lni lni-graduation"></i> PG in Aerospace Engineering (Aerodynamics), IIT Bombay</p>
-                      <p>Aisha Morvadia is a post-graduate student at IIT Bombay, specializing in Aerodynamics. She has
-                        a Bachelor's degree from KCG College of Technology and secured AIR 134 in GATE 2022.</p>
+                      <h5><strong>Hariharan R</strong></h5>
+                      <p><i class="lni lni-graduation"></i> Lead Advisor</p>
+                      <p>A top performer in GATE Aerospace 2023 and 2024, currently serving as the Chief Technology
+                        Officer (CTO) at Dashagriv Aerospace Technology. Passionate about innovation, leadership,
+                        higher studies abroad, entrepreneurship, and career development, empowering the next
+                        generation of aerospace engineers.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Ravikumar's Card -->
+                <div class="col-lg-10 col-md-12 col-sm-12 mb-5">
+                  <div class="card h-100 trainer-card">
+                    <div class="profile-image-large mt-3">
+                      <img src="assets/images/team/ravi.jpg" alt="Ravikumar G" class="img-fluid img-crop-left">
+                      <a href="https://www.linkedin.com/in/ravikumar-g-605305263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank" class="linkedin-icon" title="Open Ravikumar G's LinkedIn profile"
+                        aria-label="Open Ravikumar G's LinkedIn profile">
+                        <i class="lni lni-linkedin-original"></i>
+                      </a>
+                    </div>
+                    <div class="card-body text-center">
+                      <h5><strong>Ravikumar G</strong></h5>
+                      <p><i class="lni lni-graduation"></i> Technical Head & Advisor | MCA</p>
+                      <p>A Master's graduate in Computer Applications (MCA) and a TANCET top scorer, specializing in
+                        Quantitative Aptitude, Logical Reasoning, and Analytical Thinking. Actively mentors students
+                        in aptitude preparation for competitive examinations.</p>
                     </div>
                   </div>
                 </div>
@@ -664,76 +792,82 @@
                 <h3>Our Core Team</h3>
               </div>
               <div class="core-team text-center mt-4">
-                <div class="row" style="justify-content: space-evenly !important;">
+                <div class="row justify-content-center">
                   <!-- Srikanth's Card -->
-                  <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                    <div class="card h-100 wow fadeInUp core-card" data-wow-delay=".35s">
+                  <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="card h-100 core-card">
                       <div class="profile-image-small mt-2">
-                        <img src="assets/images/team/srikanth.jpg" alt="Srikanth R" class="img-fluid rounded-circle">
+                        <img src="assets/images/team/srikanth.jpg" alt="Srikanth R" class="img-fluid">
                         <a href="https://www.linkedin.com/in/srikanth-r-9974b521a/" target="_blank"
-                          class="linkedin-icon-small">
+                          class="linkedin-icon-small" title="Open Srikanth R's LinkedIn profile"
+                          aria-label="Open Srikanth R's LinkedIn profile">
                           <i class="lni lni-linkedin-original"></i>
                         </a>
                       </div>
                       <div class="card-body">
                         <h5 class="card-title mt-3">Srikanth R</h5>
-                        <p><i class="lni lni-graduation"></i> Masters in Aerospace Engineering</p>
-                        <p><i class="lni lni-world"></i> Coventry University, UK</p>
-                        <p><i class="lni lni-network"></i> Domain: Space Dynamics</p>
+                        <p class="core-card-meta"><i class="lni lni-graduation"></i> Masters in Aerospace
+                          Engineering</p>
+                        <p class="core-card-meta"><i class="lni lni-world"></i> Coventry University, UK</p>
+                        <span class="core-card-domain">Space Dynamics</span>
                       </div>
                     </div>
                   </div>
                   <!-- Jayashree's Card -->
-                  <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                    <div class="card h-100 wow fadeInUp core-card" data-wow-delay=".4s">
+                  <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="card h-100 core-card">
                       <div class="profile-image-small mt-2">
-                        <img src="assets/images/team/jayashree.jpg" alt="Jayashree B" class="img-fluid rounded-circle">
+                        <img src="assets/images/team/jayashree.jpg" alt="Jayashree B" class="img-fluid">
                         <a href="https://www.linkedin.com/in/jayashree-b-67950621a/" target="_blank"
-                          class="linkedin-icon-small">
+                          class="linkedin-icon-small" title="Open Jayashree B's LinkedIn profile"
+                          aria-label="Open Jayashree B's LinkedIn profile">
                           <i class="lni lni-linkedin-original"></i>
                         </a>
                       </div>
                       <div class="card-body">
                         <h5 class="card-title mt-3">Jayashree B</h5>
-                        <p><i class="lni lni-graduation"></i> Masters in Aerospace Engineering</p>
-                        <p><i class="lni lni-world"></i> Coventry University, UK</p>
-                        <p><i class="lni lni-network"></i> Domain: Aerospace Structures</p>
+                        <p class="core-card-meta"><i class="lni lni-graduation"></i> Masters in Aerospace
+                          Engineering</p>
+                        <p class="core-card-meta"><i class="lni lni-world"></i> Coventry University, UK</p>
+                        <span class="core-card-domain">Aerospace Structures</span>
                       </div>
                     </div>
                   </div>
                   <!-- Logeshwaran's Card -->
-                  <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                    <div class="card h-100 wow fadeInUp core-card" data-wow-delay=".5s">
+                  <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="card h-100 core-card">
                       <div class="profile-image-small mt-2">
                         <img src="assets/images/team/logeshwaran.jpg" alt="Logeshwaran M"
-                          class="img-fluid rounded-circle">
+                          class="img-fluid">
                         <a href="https://www.linkedin.com/in/logeshwaran-mahendran-ba27572b7/" target="_blank"
-                          class="linkedin-icon-small">
+                          class="linkedin-icon-small" title="Open Logeshwaran M's LinkedIn profile"
+                          aria-label="Open Logeshwaran M's LinkedIn profile">
                           <i class="lni lni-linkedin-original"></i>
                         </a>
                       </div>
                       <div class="card-body">
                         <h5 class="card-title mt-3">Logeshwaran M</h5>
-                        <p><i class="lni lni-graduation"></i> Aerospace Engineer</p>
-                        <p><i class="lni lni-network"></i> Domain: MRO Division</p>
+                        <p class="core-card-meta"><i class="lni lni-graduation"></i> Aerospace Engineer</p>
+                        <span class="core-card-domain">MRO Division</span>
                       </div>
                     </div>
                   </div>
                   <!-- Somasundaram's Card -->
-                  <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                    <div class="card h-100 wow fadeInUp core-card" data-wow-delay=".55s">
+                  <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="card h-100 core-card">
                       <div class="profile-image-small  mt-2">
                         <img src="assets/images/team/somasundaram.jpg" alt="Somasundaram Y"
-                          class="img-fluid rounded-circle">
+                          class="img-fluid">
                         <a href="https://www.linkedin.com/in/som-y-43ab1b214" target="_blank"
-                          class="linkedin-icon-small">
+                          class="linkedin-icon-small" title="Open Somasundaram Y's LinkedIn profile"
+                          aria-label="Open Somasundaram Y's LinkedIn profile">
                           <i class="lni lni-linkedin-original"></i>
                         </a>
                       </div>
                       <div class="card-body">
                         <h5 class="card-title mt-3">Somasundaram Y</h5>
-                        <p><i class="lni lni-graduation"></i> Aerospace Engineer</p>
-                        <p><i class="lni lni-network"></i> Domain: Aerodynamics</p>
+                        <p class="core-card-meta"><i class="lni lni-graduation"></i> Aerospace Engineer</p>
+                        <span class="core-card-domain">Aerodynamics</span>
                       </div>
                     </div>
                   </div>
@@ -748,27 +882,15 @@
                 <h3>Our Technical Team</h3>
               </div>
               <div class="core-team text-center mt-4">
-                <div class="row" style="justify-content:center !important;">
-                  <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                    <div class="card h-100 wow fadeInUp core-card" data-wow-delay=".5s">
+                <div class="row justify-content-center">
+                  <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="card h-100 core-card">
                       <div class="profile-image-small mt-2">
-                        <img src="assets/images/team/ravi.jpeg" alt="Ravi Kumar G" class="img-fluid rounded-circle">
-                        <a href="https://www.linkedin.com/in/ravikumar-g-605305263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                          target="_blank" class="linkedin-icon-small">
-                          <i class="lni lni-linkedin-original"></i>
-                        </a>
+                        <span class="profile-image-placeholder"><i class="lni lni-user"></i></span>
                       </div>
                       <div class="card-body">
-                        <h5 class="card-title mt-3">Ravikumar G</h5>
-                        <p><i class="lni lni-graduation"></i>Technical head and Advisor</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                    <div class="card h-100 wow fadeInUp" data-wow-delay=".7s">
-                      <div class="card-body text-center">
                         <h5 class="card-title mt-3">Dhilagam Parvathi Nathan</h5>
-                        <p><i class="lni lni-graduation"></i>Aerospace Engineer</p>
+                        <p class="core-card-meta"><i class="lni lni-graduation"></i> Aerospace Engineer</p>
                       </div>
                     </div>
                   </div>
@@ -781,7 +903,7 @@
               <div class="ud-section-title mx-auto text-center wow fadeInUp" data-wow-delay=".5s">
                 <span>Our Mentor</span>
                 <h2>Dr. Vijayraja K</h2>
-                <p style="font-size: 1.2rem; color: #555;">Professor & Head of Department of Aeronautical and Aerospace
+                <p class="ud-mentor-meta">Professor & Head of Department of Aeronautical and Aerospace
                   Engineering, KCG College of Technology</p>
               </div>
             </div>
@@ -795,7 +917,7 @@
 
       <!-- demo video Start -->
 
-      <section id="demo-videos" class="ud-demo-videos">
+      <section id="demo-videos" class="ud-demo-videos ud-section-dark">
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
@@ -807,20 +929,42 @@
             </div>
           </div>
 
+          <!-- Relay Video & Text -->
+          <div class="row align-items-center mt-5">
+            <div class="col-lg-6 col-md-12 mb-4 order-lg-1">
+              <div class="video-card">
+                <div class="video-wrapper" data-youtube-id="ySlaCiISROQ"
+                  data-youtube-title="Demo Class: GATE Prep Overview">
+                  <button type="button" class="video-play-button" aria-label="Play video: Demo Class: GATE Prep Overview">
+                    <img src="https://img.youtube.com/vi/ySlaCiISROQ/hqdefault.jpg" alt="" loading="lazy">
+                    <span class="video-play-icon"><i class="lni lni-play"></i></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 mb-4 order-lg-2">
+              <div class="video-details">
+                <h5>Demo Class: GATE Prep Overview</h5>
+                <p>Get a glimpse of our teaching style and coaching approach for GATE Aerospace Engineering
+                  preparation.</p>
+              </div>
+            </div>
+          </div>
+
           <!-- First Video & Text -->
           <div class="row align-items-center mt-5">
             <div class="col-lg-6 col-md-12 mb-4 order-lg-2">
-              <div class="video-card wow fadeInUp" data-wow-delay=".2s">
-                <div class="video-wrapper">
-                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/HERtcwjAuSM?autoplay=1&mute=1"
-                    title="Demo Class Video 1" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+              <div class="video-card">
+                <div class="video-wrapper" data-youtube-id="HERtcwjAuSM" data-youtube-title="Demo Class Video 1">
+                  <button type="button" class="video-play-button" aria-label="Play video: Demo Class Video 1">
+                    <img src="https://img.youtube.com/vi/HERtcwjAuSM/hqdefault.jpg" alt="" loading="lazy">
+                    <span class="video-play-icon"><i class="lni lni-play"></i></span>
+                  </button>
                 </div>
               </div>
             </div>
             <div class="col-lg-6 col-md-12 mb-4 order-lg-1">
-              <div class="video-details wow fadeInUp" data-wow-delay=".4s">
+              <div class="video-details">
                 <h5>Demo Class: Introduction to Flight Mechanics </h5>
                 <p>This class provides a comprehensive introduction to the field of Aerospace Engineering, covering
                   basic concepts, industry applications, and career opportunities.</p>
@@ -830,18 +974,18 @@
 
           <!-- Second Video & Text -->
           <div class="row align-items-center mt-5">
-            <div class="col-lg-6 col-md-12 mb-4">
-              <div class="video-card wow fadeInUp" data-wow-delay=".2s">
-                <div class="video-wrapper">
-                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/pEeARETdhls?autoplay=1&mute=1"
-                    title="Demo Class Video 2" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+            <div class="col-lg-6 col-md-12 mb-4 order-lg-1">
+              <div class="video-card">
+                <div class="video-wrapper" data-youtube-id="pEeARETdhls" data-youtube-title="Demo Class Video 2">
+                  <button type="button" class="video-play-button" aria-label="Play video: Demo Class Video 2">
+                    <img src="https://img.youtube.com/vi/pEeARETdhls/hqdefault.jpg" alt="" loading="lazy">
+                    <span class="video-play-icon"><i class="lni lni-play"></i></span>
+                  </button>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-12 mb-4">
-              <div class="video-details wow fadeInUp" data-wow-delay=".4s">
+            <div class="col-lg-6 col-md-12 mb-4 order-lg-2">
+              <div class="video-details">
                 <h5>Demo Class: PROPULSION Concepts</h5>
                 <p>In this class, we delve into advanced topics in PROPULSION, exploring complex theories and practical
                   applications in modern aerospace engineering.</p>
@@ -851,12 +995,12 @@
 
           <!-- Call to Action -->
           <div class="row mt-5">
-            <div class="col-lg-12 text-center">
-              <p class="wow fadeInUp mb-4" data-wow-delay=".2s">
+            <div class="col-lg-12 text-center wow fadeInUp" data-wow-delay=".2s">
+              <p class="mb-4">
                 Ready to take your learning to the next level? Join Mach Meyer's Academy and accelerate your journey
                 towards success.
               </p>
-              <a href="register.html" class="ud-main-btn ud-white-btn wow fadeInUp" data-wow-delay=".4s">Register
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfmS5YLtmFzFBr18IguiSw3-g52nrqEPXTvoaKBFtdyo2T6Q/viewform?pli=1" target="_blank" rel="noopener" class="ud-main-btn ud-white-btn">Register
                 Now</a>
             </div>
           </div>
@@ -867,7 +1011,7 @@
       <!-- demo video End -->
 
       <!-- Pricing Start -->
-      <section id="pricing" class="ud-pricing">
+      <section id="pricing" class="ud-pricing ud-section-light">
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
@@ -882,45 +1026,15 @@
           </div>
 
           <div class="row g-0 align-items-center justify-content-center">
-            <!-- SUBSONIC PLAN -->
-            <div class="col-lg-4 col-md-6 col-sm-10">
-              <div class="ud-single-pricing first-item wow fadeInUp" data-wow-delay=".15s">
-                <div class="ud-pricing-header">
-                  <h2 style="padding-bottom: 1rem;">SUBSONIC PLAN</h2>
-                  <h4>
-                    <span style="text-decoration: line-through;">₹25,999</span>
-                    <span style="color: red; font-weight: bold;">₹15,999</span>
-                  </h4>
-                </div>
-                <div class="ud-pricing-body">
-                  <ul>
-                    <li>Full syllabus notes</li>
-                    <li>Mock test series</li>
-                    <li>Recorded classes <span class="text-danger">✘</span></li>
-                    <li>Live classes <span class="text-danger">✘</span></li>
-                    <li>Q/A session <span class="text-danger">✘</span></li>
-                    <li>Practice tests and assignments <span class="text-danger">✘</span></li>
-                    <li>Pre-GATE exam <span class="text-danger">✘</span></li>
-                    <li>Progress tracking <span class="text-danger">✘</span></li>
-                  </ul>
-                </div>
-                <div class="ud-pricing-footer">
-                  <a href="register.html" class="ud-main-btn ud-border-btn">
-                    Choose Plan
-                  </a>
-                </div>
-              </div>
-            </div>
-
             <!-- HYPERSONIC PLAN -->
-            <div class="col-lg-4 col-md-6 col-sm-10">
-              <div class="ud-single-pricing active wow fadeInUp" data-wow-delay=".1s">
+            <div class="col-lg-5 col-md-6 col-sm-10">
+              <div class="ud-single-pricing active">
                 <span class="ud-popular-tag">POPULAR</span>
                 <div class="ud-pricing-header">
                   <h2 style="padding-bottom: 1rem; color: white !important;">HYPERSONIC PLAN</h2>
                   <h4>
-                    <span style="text-decoration: line-through;">₹28,999</span>
-                    <span style="color: red; font-weight: bold;">₹18,999</span>
+                    <span class="ud-readout ud-price-was">₹28,999</span>
+                    <span class="ud-readout ud-price-now">₹24,999</span>
                   </h4>
                 </div>
                 <div class="ud-pricing-body">
@@ -936,7 +1050,7 @@
                   </ul>
                 </div>
                 <div class="ud-pricing-footer">
-                  <a href="register.html" class="ud-main-btn ud-white-btn">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfmS5YLtmFzFBr18IguiSw3-g52nrqEPXTvoaKBFtdyo2T6Q/viewform?pli=1" target="_blank" rel="noopener" class="ud-main-btn ud-white-btn">
                     Choose Plan
                   </a>
                 </div>
@@ -944,13 +1058,13 @@
             </div>
 
             <!-- SUPERSONIC PLAN -->
-            <div class="col-lg-4 col-md-6 col-sm-10">
-              <div class="ud-single-pricing last-item wow fadeInUp premium" data-wow-delay=".15s">
+            <div class="col-lg-5 col-md-6 col-sm-10">
+              <div class="ud-single-pricing last-item premium">
                 <div class="ud-pricing-header">
                   <h2 style="padding-bottom: 1rem;">SUPERSONIC PLAN</h2>
                   <h4>
-                    <span style="text-decoration: line-through;">₹26,999</span>
-                    <span style="color: red; font-weight: bold;">₹16,999</span>
+                    <span class="ud-readout ud-price-was">₹26,999</span>
+                    <span class="ud-readout ud-price-now">₹22,999</span>
                   </h4>
                 </div>
                 <div class="ud-pricing-body">
@@ -958,15 +1072,15 @@
                     <li>Full syllabus notes</li>
                     <li>Mock test series</li>
                     <li>Recorded classes</li>
-                    <li>Live classes <span class="text-danger">✘</span></li>
-                    <li>Q/A session <span class="text-danger">✘</span></li>
-                    <li>Practice tests and assignments <span class="text-danger">✘</span></li>
-                    <li>Pre-GATE exam <span class="text-danger">✘</span></li>
-                    <li>Progress tracking <span class="text-danger">✘</span></li>
+                    <li>Live classes <span class="ud-plan-only-tag">Hypersonic only</span></li>
+                    <li>Q/A session <span class="ud-plan-only-tag">Hypersonic only</span></li>
+                    <li>Practice tests and assignments <span class="ud-plan-only-tag">Hypersonic only</span></li>
+                    <li>Pre-GATE exam <span class="ud-plan-only-tag">Hypersonic only</span></li>
+                    <li>Progress tracking <span class="ud-plan-only-tag">Hypersonic only</span></li>
                   </ul>
                 </div>
                 <div class="ud-pricing-footer">
-                  <a href="register.html" class="ud-main-btn ud-border-btn">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfmS5YLtmFzFBr18IguiSw3-g52nrqEPXTvoaKBFtdyo2T6Q/viewform?pli=1" target="_blank" rel="noopener" class="ud-main-btn ud-border-btn">
                     Choose Plan
                   </a>
                 </div>
@@ -974,17 +1088,6 @@
             </div>
           </div>
 
-
-          <!-- Added note below all pricing cards -->
-          <div class="row mt-2">
-            <div class="col-12 text-center">
-              <p
-                style="font-size: 1rem; color: #333; background-color: #f8f9fa; padding: 10px; border-radius: 5px; border-left: 4px solid red; max-width: 800px; margin: 0 auto;">
-                <strong>Red highlighted fees</strong> mentioned is admission under merit-based or mock test-based
-                scholarship
-              </p>
-            </div>
-          </div>
       </section>
       <!-- Pricing Cards End -->
       <!-- Batch 1 Enrollment Details -->
@@ -1020,102 +1123,62 @@
       </div> -->
       <!-- Batch 1 Enrollment Details End -->
 
-      <!-- Batch 3 Enrollment Details Start-->
+      <!-- GATE AE 2027 Enrollment Details Start-->
       <div class="row mt-5 justify-content-center">
         <div class="col-lg-6 col-md-8 col-sm-10">
           <div class="ud-section-title mx-auto text-center wow fadeInUp" data-wow-delay=".2s">
-            <h2>GATE AE 2026 - Batch 3 Enrollment</h2>
-            <p class="mb-4" style="font-size: 1.1rem; color: #555;">
-              Batch starts from: <strong>July 18th</strong><br>
-              Enrollment deadline: <strong>July 14th</strong>
+            <h2>GATE AE 2027 Batch Enrollment</h2>
+            <p class="mb-4 ud-enrollment-meta">
+              Enrollment opening soon &mdash; dates to be announced.
             </p>
           </div>
           <div class="ud-single-pricing special-plan wow fadeInUp" data-wow-delay=".25s" style="padding: 1.5rem;">
             <div class="ud-pricing-body" style="padding: 1rem;">
               <h5 class="text-center mb-3">Enhanced Features</h5>
-              <ul style="list-style-type: none; padding: 0;">
-                <li style="margin-bottom: 0.75rem;">AI-powered personalized learning</li>
-                <li style="margin-bottom: 0.75rem;">For 3rd & final year students</li>
-                <li style="margin-bottom: 0.75rem;">Merit-based scholarships available</li>
-                <li style="margin-bottom: 0.75rem;"> Up to 75% CGPA-based scholarship</li>
-                <li style="margin-bottom: 0.75rem;">75+ Periodic Assessments</li>
-                <li style="margin-bottom: 0.75rem;">50+ Topic-wise Assignments</li>
-                <li style="margin-bottom: 0.75rem;">16 Full-Length Mock Tests (2/month)</li>
-                <li style="margin-bottom: 0.75rem;">32 Sectional Tests (4/month)</li>
-                <li style="margin-bottom: 0.75rem;">2 Pre-GATE Simulated Exams</li>
-                <li style="margin-bottom: 0.75rem;">Weekly Progress Tracking</li>
+              <ul class="ud-enhanced-features-list">
+                <li><i class="lni lni-checkmark-circle"></i> AI-powered personalized learning</li>
+                <li><i class="lni lni-checkmark-circle"></i> For 3rd & final year students</li>
+                <li><i class="lni lni-checkmark-circle"></i> Personalized assistance in securing internships with
+                  aerospace companies</li>
+                <li><i class="lni lni-checkmark-circle"></i> 75+ Periodic Assessments</li>
+                <li><i class="lni lni-checkmark-circle"></i> 50+ Topic-wise Assignments</li>
+                <li><i class="lni lni-checkmark-circle"></i> 16 Full-Length Mock Tests (2/month)</li>
+                <li><i class="lni lni-checkmark-circle"></i> 32 Sectional Tests (4/month)</li>
+                <li><i class="lni lni-checkmark-circle"></i> 2 Pre-GATE Simulated Exams</li>
+                <li><i class="lni lni-checkmark-circle"></i> Weekly Progress Tracking</li>
               </ul>
             </div>
             <div class="ud-pricing-body" style="padding: 1rem; margin-bottom: 0.5rem;">
-              <a href="register.html" class="ud-main-btn ud-white-btn" style="background-color: #111337; color: #fff;">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfmS5YLtmFzFBr18IguiSw3-g52nrqEPXTvoaKBFtdyo2T6Q/viewform?pli=1" target="_blank" rel="noopener" class="ud-main-btn ud-solid-btn">
                 <i class="lni lni-calendar"></i> Enroll Now
               </a>
-              <p class="mt-2 small">Limited seats available</p>
             </div>
           </div>
         </div>
       </div>
-      <!-- Batch 3 Enrollment Details End -->
+      <!-- GATE AE 2027 Enrollment Details End -->
 
     </div>
     </div>
   </section>
   <!-- Pricing End -->
 
-
-  <style>
-    .special-plan {
-      background-color: #f8f9fc;
-      border-radius: 10px;
-      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-    }
-
-    .special-plan h2 {
-      font-weight: 700;
-    }
-
-    .special-plan ul li {
-      font-size: 1.1rem;
-      font-weight: 500;
-    }
-
-    .ud-main-btn {
-      display: inline-block;
-      padding: 12px 24px;
-      border-radius: 5px;
-      text-decoration: none;
-      transition: all 0.3s ease-in-out;
-    }
-
-    .ud-main-btn:hover {
-      background-color: #061f35;
-      color: #fff;
-    }
-
-    @media (max-width: 768px) {
-      .ud-single-pricing {
-        margin: 20px 0;
-      }
-    }
-  </style>
-
   </section>
 
 
   <!-- Registration Call to Action Start -->
-  <section id="registration" class="ud-registration" style="padding: 40px 0;">
+  <section id="registration" class="ud-registration ud-section-dark" style="padding: 40px 0;">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-12 text-center">
-          <h2 class="wow fadeInUp" data-wow-delay=".1s" style="margin-bottom: 1rem;">Continue to be Part of Mach Meyer's
+        <div class="col-lg-12 text-center wow fadeInUp" data-wow-delay=".1s">
+          <h2 class="ud-cta-heading">Continue to be Part of Mach Meyer's
             Academy</h2>
-          <p class="wow fadeInUp" data-wow-delay=".2s" style="font-size: 1rem; color: #555; margin-bottom: 2rem;">Direct
+          <p class="ud-cta-copy">Direct
             registrations are open. Join us and take off your GATE prep with our expert guidance.</p>
-          <a href="register.html" class="ud-main-btn wow fadeInUp" data-wow-delay=".3s"
-            style="position: relative; display: inline-block; padding: 15px 30px; background-color: #111337; color: #fff; font-size: 1.2rem; border-radius: 5px; text-decoration: none;">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfmS5YLtmFzFBr18IguiSw3-g52nrqEPXTvoaKBFtdyo2T6Q/viewform?pli=1" target="_blank" rel="noopener" class="ud-main-btn ud-cta-btn-solid">
             Register Now
             <span style="display: inline-block; margin-left: 10px; position: relative; top: 2px;">
-              <i class="lni lni-plane" style="font-size: 24px; animation: fly 3s ease-in-out infinite;"></i>
+              <i class="lni lni-plane ud-plane-icon"></i>
             </span>
           </a>
         </div>
@@ -1124,26 +1187,12 @@
   </section>
   <!-- Registration Call to Action End -->
 
-  <style>
-    @keyframes fly {
-
-      0%,
-      100% {
-        transform: translateX(0);
-      }
-
-      50% {
-        transform: translateX(10px);
-      }
-    }
-  </style>
-
   </section>
   <!-- Pricing End -->
 
 
   <!-- FAQ Start -->
-  <section id="faq" class="ud-faq">
+  <section id="faq" class="ud-faq ud-section-light">
     <div class="shape">
       <img src="assets/images/faq/shape.svg" alt="shape" />
     </div>
@@ -1162,7 +1211,7 @@
 
       <div class="row">
         <div class="col-lg-6">
-          <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s">
+          <div class="ud-single-faq">
             <div class="accordion">
               <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">
                 <span class="icon flex-shrink-0">
@@ -1172,13 +1221,13 @@
               </button>
               <div id="collapseOne" class="accordion-collapse collapse">
                 <div class="ud-faq-body">
-                  The duration of our GATE Aerospace Engineering course varies based on the chosen plan. The SUBSONIC
-                  and SUPERSONIC plans last for 6 months, while the HYPERSONIC plan extends to 8 months.
+                  The duration of our GATE Aerospace Engineering course varies based on the chosen plan. The SUPERSONIC
+                  plan lasts for 6 months, while the HYPERSONIC plan extends to 8 months.
                 </div>
               </div>
             </div>
           </div>
-          <div class="ud-single-faq wow fadeInUp" data-wow-delay=".15s">
+          <div class="ud-single-faq">
             <div class="accordion">
               <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
                 <span class="icon flex-shrink-0">
@@ -1194,25 +1243,26 @@
               </div>
             </div>
           </div>
-          <div class="ud-single-faq wow fadeInUp" data-wow-delay=".2s">
+          <div class="ud-single-faq">
             <div class="accordion">
               <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">
                 <span class="icon flex-shrink-0">
                   <i class="lni lni-chevron-down"></i>
                 </span>
-                <span>Are there any scholarship opportunities?</span>
+                <span>Are there any discounts available?</span>
               </button>
               <div id="collapseThree" class="accordion-collapse collapse">
                 <div class="ud-faq-body">
-                  Yes, we offer scholarship opportunities based on a merit-based mock test. Top performers can avail a
-                  50% discount on the course fee.
+                  Yes &mdash; students get a special discount of Rs 2000 off, plus an extra Rs 2000 off for every
+                  friend they bring along! We also provide personalized assistance in securing internships with
+                  aerospace companies.
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s">
+          <div class="ud-single-faq">
             <div class="accordion">
               <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour">
                 <span class="icon flex-shrink-0">
@@ -1228,7 +1278,7 @@
               </div>
             </div>
           </div>
-          <div class="ud-single-faq wow fadeInUp" data-wow-delay=".15s">
+          <div class="ud-single-faq">
             <div class="accordion">
               <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive">
                 <span class="icon flex-shrink-0">
@@ -1244,7 +1294,7 @@
               </div>
             </div>
           </div>
-          <div class="ud-single-faq wow fadeInUp" data-wow-delay=".2s">
+          <div class="ud-single-faq">
             <div class="accordion">
               <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix">
                 <span class="icon flex-shrink-0">
@@ -1267,7 +1317,7 @@
   <!-- FAQ End -->
 
   <!-- Contact Start -->
-  <section id="contact" class="ud-contact">
+  <section id="contact" class="ud-contact ud-section-dark">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-xl-8 col-lg-7">
@@ -1304,8 +1354,7 @@
                 </div>
                 <div class="ud-info-meta">
                   <h5>Call Us</h5>
-                  <p>+91 81229 57116</p>
-                  <p>+91 63794 26638</p>
+                  <p>+91 90804 66317</p>
                 </div>
               </div>
             </div>
@@ -1317,19 +1366,19 @@
             <form action="https://submit-form.com/iLx6plGTW" class="ud-contact-form">
               <div class="ud-form-group">
                 <label for="fullName">Full Name*</label>
-                <input type="text" name="fullName" placeholder="Your Name" required="" />
+                <input type="text" id="fullName" name="fullName" placeholder="Your Name" required="" />
               </div>
               <div class="ud-form-group">
                 <label for="email">Email*</label>
-                <input type="email" name="email" placeholder="yourname@example.com" required="" />
+                <input type="email" id="email" name="email" placeholder="yourname@example.com" required="" />
               </div>
               <div class="ud-form-group">
                 <label for="phone">Phone*</label>
-                <input type="text" name="phone" placeholder="+91 9876543210" required="" />
+                <input type="text" id="phone" name="phone" placeholder="+91 9876543210" required="" />
               </div>
               <div class="ud-form-group">
                 <label for="message">Message*</label>
-                <textarea name="message" rows="1" placeholder="Type your message here" required=""></textarea>
+                <textarea id="message" name="message" rows="1" placeholder="Type your message here" required=""></textarea>
               </div>
               <div class="ud-form-group mb-0">
                 <button type="submit" class="ud-main-btn">
@@ -1343,24 +1392,25 @@
     </div>
   </section>
   <!-- Contact End -->
-  <div id="popup-notification" class="popup-notification">
+  <div id="popup-notification" class="popup-notification" role="dialog" aria-modal="true"
+    aria-labelledby="popup-title">
     <div class="popup-content">
       <div class="popup-header">
         <img src="assets/images/logo/logo-2.png" alt="Mach Meyer's Academy Logo" class="popup-logo" style="
           padding-bottom: 10px !important;
       ">
-        <span class="close-btn" onclick="closePopup()">×</span>
+        <button type="button" class="close-btn" onclick="closePopup()" aria-label="Close special offer popup">×</button>
       </div>
       <div class="popup-body">
-        <h3>Scholarship Exam Alert!</h3>
-        <p>Register now for the Scholarship Mock Test and get up to 75% scholarship for GATE Aerospace Coaching.</p>
-        <a href="https://unstop.com/p/gate-aerospace-2026-batch-3-machmeyers-academy-1512576" class="popup-btn">Register
+        <h3 id="popup-title">Special Discount Alert!</h3>
+        <p>Get Rs 2000 off on GATE Aerospace Coaching, plus an extra Rs 2000 off for every friend you bring along!</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfmS5YLtmFzFBr18IguiSw3-g52nrqEPXTvoaKBFtdyo2T6Q/viewform?pli=1" target="_blank" rel="noopener" class="popup-btn">Register
           Now</a>
       </div>
     </div>
   </div>
   <!-- Footer Start -->
-  <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s" style="background-color: #111337; color: #fff;">
+  <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
     <div class="ud-footer-widgets">
       <div class="container">
         <div class="row">
@@ -1372,24 +1422,30 @@
               Mach Meyer's Academy - Premier GATE Aerospace Coaching.
               <ul class="ud-widget-socials" style="margin-top: 1rem;">
                 <li>
-                  <a href="https://www.youtube.com/channel/UChGNKxZHFGH-XT5r55FjsNQ">
+                  <a href="https://www.youtube.com/channel/UChGNKxZHFGH-XT5r55FjsNQ"
+                    title="Open Mach Meyer's Academy on YouTube" aria-label="Open Mach Meyer's Academy on YouTube">
                     <i class="lni lni-youtube"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/machmeyersacademy/">
+                  <a href="https://www.instagram.com/machmeyersacademy/"
+                    title="Open Mach Meyer's Academy on Instagram"
+                    aria-label="Open Mach Meyer's Academy on Instagram">
                     <i class="lni lni-instagram-filled"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/company/104163369">
+                  <a href="https://www.linkedin.com/company/104163369" title="Open Mach Meyer's Academy on LinkedIn"
+                    aria-label="Open Mach Meyer's Academy on LinkedIn">
                     <i class="lni lni-linkedin-original"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://t.me/machmeyers">
+                  <a href="https://t.me/machmeyers" title="Open Mach Meyer's Academy on Telegram"
+                    aria-label="Open Mach Meyer's Academy on Telegram">
                     <i class="lni lni-telegram-original"></i>
                   </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -1419,16 +1475,16 @@
               <h5 class="ud-widget-title">Features</h5>
               <ul class="ud-widget-links">
                 <li>
-                  <a href="#services">How it works</a>
+                  <a href="#features">How it works</a>
                 </li>
                 <li>
-                  <a href="#">Privacy policy</a>
+                  <a href="privacy-policy.html">Privacy policy</a>
                 </li>
                 <li>
-                  <a href="#">Terms of service</a>
+                  <a href="terms-of-service.html">Terms of service</a>
                 </li>
                 <li>
-                  <a href="#">Refund policy</a>
+                  <a href="refund-policy.html">Refund policy</a>
                 </li>
               </ul>
             </div>
@@ -1436,26 +1492,26 @@
         </div>
       </div>
     </div>
-    <div class="ud-footer-bottom" style="background-color: #111337">
+    <div class="ud-footer-bottom">
       <div class="container">
         <div class="row">
           <div class="col-md-8">
             <ul class="ud-footer-bottom-left">
               <li>
-                <a href="#">Privacy policy</a>
+                <a href="privacy-policy.html">Privacy policy</a>
               </li>
               <li>
-                <a href="#">Support policy</a>
+                <a href="refund-policy.html">Support policy</a>
               </li>
               <li>
-                <a href="#">Terms of service</a>
+                <a href="terms-of-service.html">Terms of service</a>
               </li>
             </ul>
           </div>
           <div class="col-md-4">
             <p class="ud-footer-bottom-right">
               Designed and Developed by
-              <a href="https://thesocialsync.in" rel="nofollow" style="color:white;">SocialSync</a>
+              <a href="https://thesocialsync.in" rel="nofollow">SocialSync</a>
             </p>
           </div>
         </div>
@@ -1467,7 +1523,7 @@
 
 
   <!-- Back To Top Start -->
-  <a href="javascript:void(0)" class="back-to-top">
+  <a href="javascript:void(0)" class="back-to-top" title="Back to top" aria-label="Back to top">
     <i class="lni lni-chevron-up"> </i>
   </a>
   <!-- Back To Top End -->
@@ -1480,15 +1536,58 @@
   <script>
 
 
+    const popupDismissedKey = "mmaPopupDismissed";
+    const popupElement = document.getElementById("popup-notification");
+
     document.addEventListener("DOMContentLoaded", function () {
+      if (sessionStorage.getItem(popupDismissedKey)) {
+        return;
+      }
       setTimeout(function () {
-        document.getElementById("popup-notification").style.display = "flex";
+        popupElement.style.display = "flex";
+        document.querySelector(".popup-content .close-btn").focus();
       }, 1000);
     });
 
     function closePopup() {
-      document.getElementById("popup-notification").style.display = "none";
+      popupElement.style.display = "none";
+      sessionStorage.setItem(popupDismissedKey, "true");
     }
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && popupElement.style.display === "flex") {
+        closePopup();
+      }
+    });
+
+    // Demo videos: click to play, one at a time, instead of three
+    // simultaneous autoplaying embeds on page load.
+    function playDemoVideo(wrapper) {
+      document.querySelectorAll(".video-wrapper iframe").forEach((frame) => frame.remove());
+      document.querySelectorAll(".video-play-button").forEach((button) => {
+        button.style.display = "";
+      });
+
+      const youtubeId = wrapper.getAttribute("data-youtube-id");
+      const youtubeTitle = wrapper.getAttribute("data-youtube-title");
+
+      const iframe = document.createElement("iframe");
+      iframe.width = "100%";
+      iframe.height = "315";
+      iframe.src = "https://www.youtube.com/embed/" + youtubeId + "?autoplay=1";
+      iframe.title = youtubeTitle;
+      iframe.frameBorder = "0";
+      iframe.allow =
+        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      iframe.allowFullscreen = true;
+
+      wrapper.querySelector(".video-play-button").style.display = "none";
+      wrapper.appendChild(iframe);
+    }
+
+    document.querySelectorAll(".video-play-button").forEach((button) => {
+      button.addEventListener("click", () => playDemoVideo(button.closest(".video-wrapper")));
+    });
 
     // Menu scroll
     const pageLink = document.querySelectorAll(".ud-menu-scroll");
